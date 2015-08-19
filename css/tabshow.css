@@ -1,0 +1,8 @@
+.demo{margin:50px auto;width:800px;}
+    .demo-tl{padding:20px 0;color:#333;}
+    .tips{color:#f60;}
+
+	.tab-title a{display:inline-block;margin-left:-1px;width:60px;text-align:center;height:30px;line-height:30px;border:1px solid #ddd;color:#333;}
+	.tab-title .current{color:#f60;}
+	.tab-info{padding:10px 0;line-height:22px;}
+ 

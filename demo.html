@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+    <meta name="Keywords" content="切换，tab切换，Jquery插件"/>
+    <meta name="Description" content="支持tab切换的Jquery插件"/>
+    <title>Jquery-tab插件</title>
+    <link href="css/reset.css" rel="stylesheet"/>
+    <link href="css/tabshow.css" rel="stylesheet">
+</head>
+<body>
+    <div class="demo">
+        <p class="fs14 demo-tl">DEMO：</p>
+
+        <div class="tab-show">
+            <div class="tab-title">
+                <a href="javascript:void(0);">全部</a><a href="javascript:void(0);">资讯</a><a href="javascript:void(0);">公告</a>
+            </div>
+            <div class="tab-list">
+                <div class="tab-info">
+                    <ul class="list">
+                        <li>此处为测试全部，此处为测试全部</li>
+                        <li>此处为测试全部，此处为测试全部</li>
+                        <li>此处为测试全部，此处为测试全部</li>
+                        <li>此处为测试全部，此处为测试全部</li>
+                        <li>此处为测试全部，此处为测试全部</li>
+                    </ul>
+                </div>
+                <div class="tab-info">
+                    <ul class="list">
+                        <li>此处为测试资讯，此处为测试资讯</li>
+                        <li>此处为测试资讯，此处为测试资讯</li>
+                        <li>此处为测试资讯，此处为测试资讯</li>
+                        <li>此处为测试资讯，此处为测试资讯</li>
+                        <li>此处为测试资讯，此处为测试资讯</li>
+                    </ul>
+                </div>
+                <div class="tab-info">
+                    <ul class="list">
+                        <li>此处为测试公告，此处为测试公告</li>
+                        <li>此处为测试公告，此处为测试公告</li>
+                        <li>此处为测试公告，此处为测试公告</li>
+                        <li>此处为测试公告，此处为测试公告</li>
+                        <li>此处为测试公告，此处为测试公告</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery.tabshow.js"></script>
+	<script>
+    $('.tab-show').tabShow({ 'title': 'a' });
+	</script>
+</body>
+</html>
